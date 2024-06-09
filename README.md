@@ -1,0 +1,1 @@
+This project investigates the effectiveness of machine learning models in detecting fake news. We compare the performance of Naive Bayes (NB), Random Forest (RF), and Support Vector Machine (SVM) models on a fake news detection task. The evaluation is based on their accuracy in classifying real and fake news articles within a test dataset
