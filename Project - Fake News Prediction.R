@@ -5,15 +5,15 @@ if(!require(caret)) install.packages("caret", repos = "http://cran.us.r-project.
 if(!require(e1071)) install.packages("e1071", repos = "http://cran.us.r-project.org")
 if(!require(randomForest)) install.packages("randomForest", repos = "http://cran.us.r-project.org")
 if(!require(knitr)) install.packages("knitr", repos = "http://cran.us.r-project.org")
-if(!require(ggplot2)) install.packages("ggplot2", repos = "http://cran.us.r-project.org")
+if(!require(SnowballC)) install.packages("SnowballC", repos = "http://cran.us.r-project.org") 
 
 library(tidyverse)
-library(tm) 
+library(tm)
 library(caret)
-library(e1071) 
-library(randomForest) 
+library(e1071)
+library(randomForest)
 library(knitr)
-library(ggplot2)
+library(SnowballC)
 
 
 # Data Extraction
